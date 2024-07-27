@@ -1,0 +1,54 @@
+p{
+  font-family: arial;
+  margin-top: 0;
+  margin-bottom: 0;
+ }
+
+ .title-video {
+    font-size: 18px;
+    font-weight: bold;
+    width: 280px;
+    line-height: 24px;
+    margin-bottom: 2px;
+  }
+
+  .video-stats{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 16px;
+  }
+
+  .name-account {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 16px;
+  }
+
+  .description-video {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 100px;
+    width: 280px;
+    line-height: 20px;
+  }
+
+  .advertise-shop {
+    background-color: rgb(227, 65, 64);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .span-shop {
+    cursor: pointer;
+  }
+
+  .span-shop:hover {
+    text-decoration: underline;
+  }

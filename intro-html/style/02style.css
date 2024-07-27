@@ -1,0 +1,31 @@
+.link-amazon {
+  color: rgb(0, 113, 133);
+}
+
+.nike-black {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.price-nike {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+
+.add-to-chart {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  height: 32px;
+  width: 110px;
+  border: none;
+  border-radius: 18px;
+}
+
+.buy-now {
+  background-color: rgb(255, 164, 28);
+  color: black;
+  height: 32px;
+  width: 110px;
+  border: none;
+  border-radius: 18px;
+}

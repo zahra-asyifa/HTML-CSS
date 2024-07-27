@@ -1,0 +1,139 @@
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.video-author,
+.video-stats {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.video-author {
+  margin-bottom: 4px;
+}
+
+.video-title {
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.container-info {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.picture {
+  width: 36px;
+  border-radius: 50px;
+}
+
+.thumbnail-row {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.video-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.youtube-link {
+  text-decoration: none;
+  color: black;
+}
+
+.channel-container {
+  position: relative;
+  display: inline-block;
+}
+
+.account-tooltip {
+  background-color: white;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  position: absolute;
+  top: 40px;
+  z-index: 300;
+
+  opacity: 0;
+  pointer-events: none;
+
+  display: flex;
+  transition: opacity 0.15;
+  justify-content: center;
+  align-items: center;
+}
+
+.channel-container:hover .account-tooltip {
+  opacity: 1;
+}
+
+.image-tooltip {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 8px;
+}
+
+.name-account {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.subscribe-account {
+  font-size: 12px;
+  color: rgb(113, 113, 113);
+}
+
+@media (max-width: 880px) {
+  .video-info-grid {
+    grid-template-columns: 1fr 1fr;
+  } 
+}
+
+@media (min-width: 879px) and (max-width: 1119px) {
+  .video-info-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1120px) {
+  .video-info-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .video-author,
+  .video-stats {
+    font-size: 14px;
+    line-height: 24px;
+}
+}
+
+

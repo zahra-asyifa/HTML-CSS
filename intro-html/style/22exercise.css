@@ -1,0 +1,100 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.image {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  object-position: right;
+  border-radius: 50px;
+  margin-right: 12px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.sub-title {
+  font-size: 16px;
+  color: rgb(124, 124, 124);
+}
+
+.at {
+  font-size: 13px;
+  vertical-align: top;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.text {
+  width: 400px;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.background {
+  background-color: rgb(214, 214, 214);
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.link-info {
+  font-size: 16px;
+  color: rgb(124, 124, 124);
+  margin-bottom: 5px;
+}
+
+.sub-info {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.link-group {
+  flex: 1;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-color: rgb(214, 214, 214);
+  border-width: 1px;
+  border-style: solid;
+  width: 340px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-left: 68px;
+}
+
+.all-pages {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(206, 206, 206);
+  border-radius: 4px;
+  width: 410px;
+  padding-left: 20px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.all-container {
+  margin-bottom: 30px;
+}

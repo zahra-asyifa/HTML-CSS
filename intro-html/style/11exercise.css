@@ -1,0 +1,26 @@
+p {
+  font-family: arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 14px;
+  color: rgb(155, 155, 155);
+}
+
+.satisfied {
+  background-color: rgb(33, 33, 33);
+  width: 320px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}

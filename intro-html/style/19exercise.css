@@ -1,0 +1,47 @@
+div {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.container {
+  background-color: rgb(145, 100, 171);
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+}
+
+.home {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.search {
+  width: 360px;
+  font-size: 12px;
+  border: none;
+  border-radius: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  height: 20px;
+}
+
+.download {
+  font-size: 14px;
+  background-color: rgb(145, 100, 171);
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-radius: 2px;
+  border-width: 1px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}

@@ -1,0 +1,81 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.all-inbox {
+  color: rgb(121, 121, 121);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.profile {
+  margin-right: 10px;
+}
+
+.image-profile {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.image-profile-2 {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: right;
+  border-radius: 50px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sub-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.text-chat {
+  font-size: 16px;
+  color: rgb(121, 121, 121);
+}
+
+.time {
+  font-size: 14px;
+  color: rgb(121, 121, 121);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.inbox{
+  margin-bottom: 20px;
+}
+
+.all-pages {
+  width: 400px;
+  padding-top: 12px;
+  padding-left: 16px;
+  padding-bottom: 2px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.delivered {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}

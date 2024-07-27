@@ -1,0 +1,82 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.sub-name {
+  font-size: 14px;
+  color: rgb(147, 147, 147);
+  margin-bottom: 4px;
+  width: 80px;
+}
+
+.bottom-info {
+  font-size: 12px;
+  color: rgb(147, 147, 147);
+}
+
+.follow {
+  background-color: rgb(0, 153, 255);
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.follow:hover {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.follow:active {
+  opacity: 0.7;
+}
+
+.image-profile{
+  margin-right: 10px;
+}
+
+.info-profile {
+  margin-right: 100px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.all-pages {
+  width: 300px;
+  border-width: 1px;
+  border-radius: 6px;
+  border-color: rgb(172, 172, 172);
+  border-style: solid;
+  padding-right: 18px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
